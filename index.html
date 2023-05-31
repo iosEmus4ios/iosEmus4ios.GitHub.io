@@ -1,246 +1,420 @@
 
+
+<head>
+<body>
+
+
+    <div class="menu">
+    
+
+<div onclick="animation(this)">
+
+
+    <div class="move">
+<div class="bar1"></div>
+<div class="bar2"></div>
+<div class="bar3"></div>
+
+
+</div>
+
+
+
+<div class="nav"> 
+
+
+
+<br>
+<a href="https://emus4ios.github.io">
+    <li class="align"> my github  </li>
+    </a>
+    <br>
+    <a href="contactme.html">
+    <li class="align-2"> contact me </li></a>
+    <br>
+    <a href="proj-1.html">
+    <li class="align-3"> about me</li>
+   </a>
+    <br>
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+<style>
+.bar1, .bar2, .bar3 {background-color: white;
+margin: 6px;
+height: 6px;
+width: 37px;
+transition: 0.4s;
+margin-top: 5px;
+}
+.change .bar1{
+transform: translate(0px, 11px)rotate(45deg);
+
+}
+
+.nav{
+background-color:black ;
+display: block;
+color:white;
+font-family: sans-serif;
+list-style-type: none;
+text-decoration: none;
+min-width: 1900px;
+font-size: 25px;
+transform: translate(0px, -6000px);
+text-align: center;
+transition: 0.4s;
+margin-left: -21px;
+
+
+}
+
+.move{margin-top: 20px;
+text-align: right;
+margin-left:1100px}
+
+.change .nav{
+
+    transform: translate(-300px, 12px);
+}
+
+.menu{
+    background-color: black;
+width: 2000px;
+height: 70px;
+position: fixed;
+margin-top: -10px;
+margin-left:-12px;
+}
+.change .bar2{
+opacity: 0;
+
+}
+
+
+
+.change .bar3{
+transform: translate(0px, -11px)rotate(-55deg);
+
+}
+
+
+.logo{
+    color: white;
+    font-family:sans-serif;
+    margin-top: -210px;
+}
+
+
+
+h1{color: white;}
+h3{margin-left: 3px;}
+
+.css-menu{
+color: black;
+font-family: sans-serif;
+
+}
+
+.move2{margin-left: 850px;
+font-family: sans-serif;
+font-size: 22px;
+margin-top: -230px;
+color: white;
+}
+
+body{position: relative;}
+
+.text-2{
+margin-top: -245px;
+color:white;
+font-family: sans-serif;
+margin-left: 300px;
+font-size: 30px;
+}
+
+
+
+.text-4{
+margin-top: -64px;
+color:white;
+font-family: sans-serif;
+margin-left: 580px;
+font-size: 30px;
+}
+
+body{
+   
+    height: 300px;
+width: 100%;
+color: white;
+}
+.text-6{
+margin-top: -64px;
+color:white;
+font-family: sans-serif;
+margin-left: 800px;
+font-size: 30px;
+}
+
+
+body{
+    background-image: url("pexels-eberhard-grossgasteiger-1624496.jpg");
+background-repeat: no-repeat;
+background-size: fit-content;
+background-position: 50% 50%;
+background-size:cover;
+background-color:black ;
+display: block;
+overflow-x: hidden;
+}
+
+::-webkit-scrollbar-button{
+max-height: 1150px;
+max-width: 50px;
+}
+.body{
+
+color: white;
+    font-family: sans-serif;
+margin-left: 195px;
+font-size: 24px;
+}
+
+
+
+.btn{
+background-color: red;
+color: white;
+border: none;
+padding: 20px 40px;
+font-family: sans-serif;
+border-radius: 18px;
+margin-left: 160px;
+font-size:20px ;
+margin-top: 8px;
+text-decoration: none !important;
+}
+
+.btn2{
+background-color: red;
+color: white;
+border: none;
+padding: 20px 40px;
+font-family: sans-serif;
+border-radius: 18px;
+margin-left: -1110px;
+font-size: 20px;
+margin-top: 18px;
+text-decoration: none !important;
+}
+
+a{ text-decoration: none;
+color: white;
+}
+
+.h1{margin-left: 200px;
+font-family: sans-serif;
+margin-top: 115px;
+}
+
+body{
+  overflow-y: scroll;
+  scrollbar-color: red orange;
+  scrollbar-width: thin;
+
+}
+
+
+
+
+.move-text{
+margin-left: 150px;
+font-family: sans-serif;
+margin-top: -100px;
+}
+
+.h2{margin-left: -1100px;
+font-family: sans-serif;
+margin-top: -30px;
+}
+
+
+.move-text2{
+margin-left: -1100px;
+font-family: sans-serif;
+margin-top: -100px;
+}
+
+
+.title{
+font-family: sans-serif;
+    margin-left: -500px;
+    margin-top: 280px;
+}
+
+li{font-family: sans-serif;
+list-style-type: none;
+text-decoration: none;
+}
+
+.a1{
+margin-left: -1000px;
+font-size: 25px;
+}
+
+.a2{
+margin-left: -550px;
+font-size: 25px;
+margin-top: -25px;
+}
+
+.a3{
+margin-left: -100px;
+font-size: 25px;
+margin-top: -25px;
+}    
+
+
+
+h5{margin-top: -200px;
+
+}
+
+
+button{ text-decoration: none;}
+</style>
+
+<style>
+
+
+body{font-family: sans-serif;
+
+}
+.moi{margin-left: 120px;
+margin-top: -265px;
+font-size: 25px;
+}
+</style>
+
 <script>
-
-function toggle(){
-var element= document.body; 
-element.classList.toggle("dark-mode")
-
+function animation(x) {
+    x.classList.toggle("change")
 }
-function h1fix() {
-var element= document.body; 
-	element.classList.toggle("h1fix")
-}
-
-function h6fix() {
-var element= document.body; 
-	element.classList.toggle("h6fix")
-}
-
 
 </script>
 
-<style>
-.dark-mode{
-background-color: black;
-}
-
-.h1fix{
-color:white;
-}
-
-.h6fix{color:white;
-font-size: 30px;
-}
-</style>
-<style>
-.btn{background-color:dodgerblue;
-      color: white;
-      border:none ;
-      font-size: 30px;
-      padding: 20px 40px;
-      font-family: sans-serif;
-     border-radius:30px; 
-     text-align:right ;
-     
-}
-
-</style>
-
-
-
-
-<link rel="stylesheet" href="https://unpkg.com/css.gg@2.0.0/icons/css/dark-mode.css" />
-
-
-
-
-
-
-<br>
-<br>
-<br>
-<br>
-
-  <div> 
-    <a href="https://emus4ios.github.io">
-    website
-    </a>
-
-    <a href="contactme.html">
-    &nbsp; &nbsp;
-    contact me  
+<a href="contactme.html">
+<h3 class="text-2">contact me</h3>
 </a>
-<a href="">
-    &nbsp; &nbsp;
-Projects
+
+<a href="https://github.com/iosEmus4ios/">
+<h3 class="text-4">my github </h3>
 </a>
-<a href="about me.html">
-&nbsp; &nbsp;
-about me
-&nbsp; &nbsp;
-</a> 
-<a href="skills.html">
-skills 
+
+<a href="proj-1.html">
+<h3 class="text-6">  about me </h3>
 </a>
-  </div>
-  
+
+<div class="fade">
+<div class="body" > welcome to my github porfoilio iam mohamed Ayman
+iam a web devbloper web developer with
+<br>
+4 years of expernice ihave 
+<br>
+made alot of ui/ux projects 
+ to check out the best ui/ux  projects that i have 
+ <br>
 </div>
-<button class="btn"  onclick="toggle();h1fix();"> <i class="gg-dark-mode"> </i></button>
+ the best projects that i have made are below 
 
+    <br>
+    <br>
 <br>
 <br>
+<br>
+<br>
+<br>
+<br>
+<center>
+<h5 class="h1">
+
+</h5>
 
 
-
-
+<div class="move-text" >
+<br>
+this is an ios tweaked appstore that allows you to
+<br>
+sideload ios emulators  out side of the appstore 
+<br>
+<br>
+<br>
+<br>
+</div>
+<button class="btn">
+    <a href="https://emus4ios.github.io">
+    Emus4ios
+    </a>
+</button>
+<h2 class="moi"></h2>
+</div>
+<br>
+<br>
 <center>
 
-
-
-<h1> mohamed Ayman  </h1>
-
- 
-<br>
-<br>
-<h4 class="typed-out">iam a html css and js 
-developer i have been programming for the past 4years  </ul>
-
-
-
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
-
-<h6 style="font-size:30px"> one of my projects: emus4ios.github.io it is an ios appstore  that was made by me to allow sideloading on ios 
- </h6>
-            
-<br>
-<br>
-<br>
-
-
-<style>
-div{
-position: fixed;
-top: 0;
-right: 0;
-width: 100%;
-   padding: 14px 16px;
-   color:white;
-   text-align: center;
-   font-family:sans-serif ;
-   list-style-type: none;
-   background-color: dodgerblue;
-   font-size: 25px;
-   justify-content: center;
-   display: flex;
-   }
-   
-   .dropdown{
-position: relative;
-display: inline-block;
-   }
-   .dropdown-content{
-    display: none;
-    background-color: dodgerblue;
-    z-index: 1;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    padding: 12px 16px;
-   }
-   a{text-decoration: none;}
-   .div2{background-color:black;
-text-align: right;
-}
-   
-   body{background-color:white;}
-li{font-size: 20px;}
-  
-   h1{
-   font-family: sans-serif;
-   }
-
-
-
-.contactme{
-  background-color: dodgerblue;
-  border:none;
-  padding:14px 16px;
-  border-radius: 20px;
-  font-size: 20px;
-}
-
-.space{background-color: dodgerblue;
-color: dodgerblue;
-}
-body{
-  
-  background-size: cover;
-  font-family: 'Trebuchet MS', sans-serif; 
-}
-
-.typed-out{
-  overflow: hidden;
-  border-right: .15em solid orange;
-  white-space: nowrap;
-  animation: typing 1s steps(20, end) forwards, blinking .30s infinite;
-  font-size: 1.6rem;
-  width: 0;
-  font-size: 26px;
-}
-@keyframes typing {
-  from { width: 0 }
-  to { width: 72% }
-}
-@keyframes blinking {
-  from { border-color: transparent }
-  to { border-color: orange; }
-}
-
-ul.a {list-style-type: circle;}
-a{text-decoration: none;
-color: white;
-}
-a:hover{text-decoration: none;}
-body{
-font-family: sans-serif;
-}
-li{font-size: 20px ;}
-</style>
-
-
-skills:
-<hr>
-
-
-    
-<li>html 5 </li>
-<li> css 3</li>
-<li> light js </li>
-
- <hr>
-<br>
-<br>
- 4 years of exprenice in html and css
-    1 month of exprenice in javascript
-
- 
- <h1>
-
+<h1 class="h2">
+the ios archive
 </h1>
-
-
-
-<h1>  projects : </h1>
-<br>
-<br>
-
-<center>
-       <h1>   a fully working ios  appstore:emus4ios.gihtub.io backend powerd by:installonair.com </h1>
 <br>
 <br>
 <br>
+<br>
+<br>
+<div class="move-text2" class="fade" >
+<br>
+<div class="fade">
+this is an ios tweaked appstore that allows you to
+<br>
+sideload ios emulators  out side of the appstore 
+</div>
+<br>
+<br>
 
-  <a href="https://emus4ios.github.io">
-  <button class="btn">  Emus4ios </button>
-  </a>
-  
-  <br>
+</div>
+<button class="btn2">
+    <a href="https://iosemus4ios.github.io/THeiosArchive.GitHub.io/">
+    TheIosArchive
+</a>
+</button>
+
+<br>
+<br>
+
+<div class="moi">Emus4ios</div>
+
+<h1 class="title">
+
+    skills
+</h1>
+<hr>
+<div class="a1">
+<li>html5</li>
+</div>
+<div class="a2">
+<li>css</li>
+</div>
+<div class="a3">
+<li>javascript</li>
+</div>
+<hr>
+</head>
+</body>
